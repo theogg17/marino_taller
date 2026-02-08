@@ -11,6 +11,7 @@
   --accent-yellow: #d9a726;
   --radius: 16px;
   --shadow: 0 18px 35px rgba(0, 0, 0, 0.45);
+  --anchor-offset: 146px;
 }
 
 * {
@@ -19,7 +20,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 146px;
+  scroll-padding-top: var(--anchor-offset);
 }
 
 html,
@@ -443,7 +444,7 @@ a {
 }
 
 .booking-anchor {
-  scroll-margin-top: 146px;
+  scroll-margin-top: var(--anchor-offset);
   width: min(100%, 560px);
   justify-self: center;
   box-shadow: var(--shadow);
