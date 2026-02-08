@@ -20,7 +20,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: var(--anchor-offset);
+  scroll-padding-top: var(--anchor-offset, 118px);
 }
 
 html,
@@ -444,7 +444,7 @@ a {
 }
 
 .booking-anchor {
-  scroll-margin-top: var(--anchor-offset);
+  scroll-margin-top: var(--anchor-offset, 118px);
   width: min(100%, 560px);
   justify-self: center;
   box-shadow: var(--shadow);
