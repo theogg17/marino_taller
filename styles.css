@@ -17,6 +17,11 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 146px;
+}
+
 html,
 body {
   margin: 0;
@@ -48,7 +53,7 @@ a {
   min-height: 94px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 1.2rem;
 }
 
@@ -77,6 +82,8 @@ a {
 .menu {
   display: flex;
   gap: 1.2rem;
+  margin-left: auto;
+  margin-right: 0.55rem;
   font-family: 'Rajdhani', sans-serif;
   font-size: 1.25rem;
   font-weight: 600;
@@ -422,8 +429,8 @@ a {
 .booking-wrap {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  align-items: start;
+  gap: 1.2rem;
+  align-items: center;
 }
 
 .booking-form {
@@ -433,6 +440,13 @@ a {
   padding: 1.2rem;
   display: grid;
   gap: 0.85rem;
+}
+
+.booking-anchor {
+  scroll-margin-top: 146px;
+  width: min(100%, 560px);
+  justify-self: center;
+  box-shadow: var(--shadow);
 }
 
 .booking-form label {
