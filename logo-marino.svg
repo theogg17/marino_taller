@@ -1,0 +1,10 @@
+<svg width="340" height="110" viewBox="0 0 340 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="340" height="110" fill="transparent"/>
+  <text x="8" y="54" font-family="Brush Script MT, Segoe Script, cursive" font-size="78" fill="#F8F8F8">Mariño</text>
+  <text x="186" y="82" font-family="Brush Script MT, Segoe Script, cursive" font-size="66" fill="#F8F8F8">Sport</text>
+  <rect x="12" y="68" width="132" height="7" fill="#EFEFEF"/>
+  <rect x="20" y="75" width="124" height="7" fill="#D8D8D8"/>
+  <rect x="28" y="82" width="116" height="7" fill="#234E9F"/>
+  <rect x="36" y="89" width="108" height="7" fill="#E0B12D"/>
+  <rect x="44" y="96" width="100" height="7" fill="#D8182D"/>
+</svg>
